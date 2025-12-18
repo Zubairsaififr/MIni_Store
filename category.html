@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Header</title>
+    <link rel="stylesheet" href="category.css">
+   
+</head>
+<body>
+    <header>
+        <nav class="nav-container">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <div class="dropdown">
+                        <a href="#" class="dropdown-item">Welcome</a>
+                        <a href="#" class="dropdown-item">About</a>
+                        <a href="#" class="dropdown-item">Contact</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Products</a>
+                    <div class="dropdown">
+                        <a href="https://www.apple.com/iphone-16e/" class="dropdown-item">iPhone 16e</a>
+                        <a href="https://www.apple.com/iphone-16-pro/" class="dropdown-item">iPhone 16 Pro</a>
+                        <a href="https://www.apple.com/in/iphone-16/" class="dropdown-item">i Phone 16</a>
+                        <a href="https://support.apple.com/en-in/111828" class="dropdown-item">iPhone 15 pro</a>
+                        <a href="https://www.apple.com/in/shop/buy-iphone/iphone-15" class="dropdown-item">iPhone 15</a>
+                        <a href="#" class="dropdown-item">i Phone 14 pro</a>
+                        <a href="#" class="dropdown-item">i Phone 14 </a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Blog</a>
+                    <div class="dropdown">
+                        <a href="#" class="dropdown-item">Latest Posts</a>
+                        <a href="#" class="dropdown-item">Categories</a>
+                        <a href="#" class="dropdown-item">Archives</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Sales</a>
+                    <div class="dropdown">
+                        <a href="#" class="dropdown-item">Deals</a>
+                        <a href="#" class="dropdown-item">Discounts</a>
+                        <a href="#" class="dropdown-item">Clearance</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="video-container">
+       
+        <video id="myVideo" muted autoplay>
+            <source src="./xlarge.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <button id="pauseBtn" class="pause-button">Pause</button>
+        <button id="mute">Mute/Unmute</button>
+            <input type="range" id="volume" min="0" max="1" step="0.1" value="1">
+    
+    </div>
+    <div class="ipad">
+        <!-- <div class="paddd1"><img src="./image/pad.jpg" alt=""></div>
+        <div class="paddd2"><img src="./image/padd.jpg" alt=""></div>
+        <div class="paddd3"><img src="./image/paddd.jpg" alt=""></div> -->
+        
+    </div>
+
+    <script src="category.js"> </script>
+</body>
+</html>

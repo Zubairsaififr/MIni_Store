@@ -1,0 +1,10 @@
+{
+    "category":[
+        {"id":1,"name":"iPad","price":130000},
+        {"id":2,"name":"watch","price":130000},
+        {"id":3,"name":"iphone 15","price":130000},
+        {"id":4,"name":"iphone 13","price":130000},
+        {"id":5,"name":"iphone 12","price":130000},
+        {"id":6,"name":"iphone 16","price":130000}
+    ]
+}
