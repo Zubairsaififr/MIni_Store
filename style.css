@@ -43,7 +43,7 @@ border-radius: 20px;}
 
 
 .slider-container{ height: 600px; width: 90%;  align-items: center; 
-position: relative; top: 2px; right: 5%; left: 5%; overflow: hidden;
+position: relative; top: 2px; right: 5%; left: 10%; overflow: hidden;
  }
 
 .slides {
@@ -113,7 +113,10 @@ position: relative; top: 2px; right: 5%; left: 5%; overflow: hidden;
 
 
 
-.phn{height: 450px; width: 100%; display: flex; gap: 2px; background:transparent;
+.phn{height: 450px; width: 100%; display: flex; gap: 2px; 
+  background:transparent;
+  align-items: center;
+  justify-content: center;
 
 position: relative; top: 100px; }
 .phn img{height: 400px; width: 245px; cursor: pointer;
