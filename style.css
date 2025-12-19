@@ -129,7 +129,9 @@ position: relative; top: 100px; }
     position: relative;
     margin: 0 auto; top: 200px;
 }
-
+.ur{
+  font-size: 56px;
+}
 
 .s-lides {
     display: flex;
