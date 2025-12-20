@@ -85,7 +85,7 @@ position: relative; top: 2px; right: 5%; left: 10%; overflow: hidden;
 }
 .dots-container {
   text-align: center;
-  padding: 20px;
+  padding: 29px;
   background: transparent; position:absolute; top: 1180px; left: 40%;
 }
 
@@ -127,6 +127,7 @@ position: relative; top: 100px; }
     height: 500px;  border-radius: 40px;
     overflow: hidden;
     position: relative;
+    border: 1px red;
     margin: 0 auto; top: 200px;
 }
 .ur{
@@ -137,7 +138,7 @@ position: relative; top: 100px; }
     display: flex;
     width: 300%; 
     height: 100%;
-    animation: sli 15s infinite; 
+    animation: sli 14s infinite; 
     
 }
 
