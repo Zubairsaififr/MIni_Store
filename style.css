@@ -60,7 +60,10 @@ position: relative; top: 2px; right: 5%; left: 10%; overflow: hidden;
   display: block;
 }
 
-
+.turn{
+  font-size: 40px;
+  color: red;
+}
 .prev, .next {
   cursor: pointer;
   position: absolute;
